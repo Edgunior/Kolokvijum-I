@@ -1,0 +1,100 @@
+body{
+	background-color:#fedabc;
+}
+#prviDeo {
+	box-size:border-box;
+}
+
+#prviDeo, img{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+#prviDeo, h1 {
+	padding: 0px;
+	text-align: center;
+	color:red;
+	
+}
+
+.navigacija {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	list-style:none;
+	float: center;
+	background-color: #5DADE2;
+}
+.navigacija , a {
+	display: inline-block;
+	padding: 5px 80px;
+	text-decoration:none;
+	
+}
+#home {
+	border: 1px solid red;
+	color: black;
+	background-color: #deb214;
+	margin: 0px 0px 0px 0px;
+}
+#about {
+	border: 1px solid red;
+	background-color: #e0c7c0;
+	margin: 0px 0px 0px 0px;
+}
+#contact {
+	border: 1px solid red;
+	background-color: #438edb;
+	margin: 0px 0px 0px 0px;
+}
+#blog {
+	border: 1px solid red;
+	background-color: #30c8b6;
+	margin: 0px 0px 0px 0px;
+}
+
+table {
+
+	width:100%;
+	height: 300px;
+	text-align: center;
+	
+}
+
+
+#prvaLista {
+	list-style: number;
+}
+#drugaLista {
+	list-style-type: circle;
+	margin-left: 55px;
+}
+
+#socijalneMreze > a > img {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
+#fejs {
+	padding: 3px;
+}
+#insta {
+		padding: 3px;
+}
+#twitter {
+	padding: 3px;
+}
+.slicice {
+	width: 33%;
+	height: auto;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
